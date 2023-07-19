@@ -1,0 +1,56 @@
+.feature-detail .value_container.categories_and_scores {
+    display: block;
+}
+.feature-detail .categories_and_scores {
+    margin: 0;
+    padding: 0;
+    padding-top: 0.7em;
+}
+.feature-detail table.expression-values-table {
+    border: 1px solid #dddddd;
+    margin: 0;
+    padding: 0;
+}
+.feature-detail table.expression-values-table tr {
+    display: table-row;
+}
+.feature-detail table.expression-values-table td,
+.feature-detail table.expression-values-table th {
+    display: table-cell;
+    padding: 0.5em;
+}
+.feature-detail table.expression-values-table th {
+    background: #333333;
+    color: #ffffff;
+}
+.feature-detail .expression-values td,
+.feature-detail .expression-values th {
+    border-right: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+}
+.feature-detail .expression-values tr .last-col {
+    border-right: 0;
+}
+.feature-detail .expression-values tr.last-row td {
+    border-bottom: 0;
+}
+.feature-detail .expression-values .cat {
+    text-align: center;
+    font-weight: bold;
+}
+.feature-detail .expression-values td.cat {
+    color: #ffffff;
+    text-shadow: #333333 1px 0 0;
+}
+.feature-detail .expression-values .score,
+.feature-detail .expression-values .celltype {
+    text-align: center;
+    background: #ffffff;
+}
+.feature-detail .expression-values .cat,
+.feature-detail .expression-values .score {
+    width: 5em;
+}
+.feature-detail .expression-values .celltype {
+    min-width: 5em;
+}
