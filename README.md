@@ -64,6 +64,7 @@ track options menu.
       "type": "BarChartViewer/View/Track/BarChart",
       "urlTemplate": "barchart_example.bb"
   }
+```
 
 ### Optional configuration settings
 
